@@ -21,8 +21,5 @@
     <ClCompile Include="algorithm_cpp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="17626.cpp">
-      <Filter>소스 파일\baekjoon</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
