@@ -27,12 +27,14 @@ int main() {
 	for (int i = 2; i < m; ++i) {
 		if (IOString.at(i) == 'I' && IOString.at(i - 1) == 'O' && IOString.at(i - 2) == 'I') {
 			patternCounts[i] = patternCounts[i - 2] + 1;
+			++i;
 		}
 	}
 	int result = 0;
 	for (int i = 0; i < m; ++i) {
 		if (patternCounts[i] >= n) {
 			++result;
+			++i;
 		}
 	}
 	cout << result << "\n";
