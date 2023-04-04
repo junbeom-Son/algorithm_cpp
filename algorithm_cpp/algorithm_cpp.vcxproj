@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1182%28부분수열의합%29.cpp" />
     <ClCompile Include="algorithm_cpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1182부분수열의합" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
