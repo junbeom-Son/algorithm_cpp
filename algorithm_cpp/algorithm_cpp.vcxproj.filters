@@ -18,9 +18,6 @@
     <ClCompile Include="algorithm_cpp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1182%28부분수열의합%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1182부분수열의합" />
